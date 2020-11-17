@@ -1,0 +1,7 @@
+<?php
+$name = $_POST['name'];
+$num = $_POST['num'];
+for ($x = $name; $x <= $num; $x++) {
+  echo  $x "<br>" ;
+}
+?>
